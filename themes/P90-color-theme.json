@@ -596,7 +596,10 @@
 				"entity.name.module.js",
 				"variable.import.parameter.js",
 				"variable.other.class.js",
-				"constant.numeric.dec.python"
+				"constant.numeric.dec.python",
+				"punctuation.definition.decorator.python",
+				"entity.name.function.decorator.python",
+				"meta.function.decorator.python"
 			],
 			"settings": {
 				"foreground": "#FFFFFF"
