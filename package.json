@@ -1,0 +1,21 @@
+{
+  "name": "p90",
+  "displayName": "P90",
+  "description": "a minimalistic dark retro color theme for visual studio code",
+  "version": "0.1.0",
+  "engines": {
+    "vscode": "^1.81.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "P90",
+        "uiTheme": "vs-dark",
+        "path": "./themes/P90-color-theme.json"
+      }
+    ]
+  }
+}
