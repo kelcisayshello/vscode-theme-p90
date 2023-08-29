@@ -4,7 +4,7 @@
 	"type": "dark",
 	"colors": {
 		"activityBar.background": "#222222",
-		"activityBar.border": "#22222260",
+		"activityBar.border": "#30604A60",
 		"activityBar.foreground": "#E2E2E2",
 		"activityBarBadge.background": "#6C9C87",
 		"activityBarBadge.foreground": "#222222",
@@ -16,7 +16,7 @@
 		"breadcrumb.foreground": "#e2e2e2",
 		"breadcrumbPicker.background": "#222222",
 		"button.background": "#30604A50",
-		"contrastBorder": "#30604A40",
+		"contrastBorder": "#0ea66240",
 		"debugToolBar.background": "#222222",
 		"diffEditor.insertedTextBackground": "#D02D1C15",
 		"diffEditor.removedTextBackground": "#FFFFFF20",
@@ -117,7 +117,7 @@
 		"notifications.background": "#222222",
 		"notifications.foreground": "#E2E2E2",
 		"panel.background": "#222222",
-		"panel.border": "#22222260",
+		"panel.border": "#DABB7E60",
 		"panelTitle.activeBorder": "#30604A",
 		"panelTitle.activeForeground": "#FFFFFF",
 		"panelTitle.inactiveForeground": "#E2E2E2",
@@ -156,7 +156,7 @@
 		"sideBarTitle.foreground": "#E2E2E2",
 		"statusBar.background": "#30604A",
 		"statusBar.border": "#1F1F1F",
-		"statusBar.debuggingBackground": "#DABB7E",
+		"statusBar.debuggingBackground": "#DA4E3F",
 		"statusBar.debuggingForeground": "#FFFFFF",
 		"statusBar.foreground": "#fff",
 		"statusBar.noFolderBackground": "#222222",
@@ -428,7 +428,8 @@
 				"string.quoted.double.css",
 				"punctuation.definition.string.begin.json",
 				"punctuation.definition.string.end.json",
-
+				"punctuation.definition.string.begin.py",
+				"punctuation.definition.string.end.py",
 			],
 			"settings": {
 				"foreground": "#3A7359"
@@ -436,7 +437,6 @@
 		},
 		{
 			"scope": [
-				
 				"entity.other.attribute-name.html",
 			],
 			"settings": {
@@ -531,9 +531,72 @@
 		},
 		{
 			"scope": [
+				"source.python"
+			],
+			"settings": {
+				"foreground": "#5375A5"
+			}
+		},
+		{
+			"scope": [
+				"constant.other.caps.python"
+			],
+			"settings": {
+				"foreground": "#0057E7"
+			}
+		},
+		{
+			"scope": [
+				"keyword.control.import.python"
+			],
+			"settings": {
+				"foreground": "#C5C5C5"
+			}
+		},
+		{
+			"scope": [
+				"punctuation.definition.string.begin.python",
+				"punctuation.definition.string.end.python",
+				"string.quoted.single.python",
+				"string.quoted.docstring.single.python"
+			],
+			"settings": {
+				"foreground": "#6C9C87"
+			}
+		},
+		{
+			"scope": [
+				"comment.line.number-sign.python",
+				"punctuation.definition.comment.python"
+			],
+			"settings": {
+				"foreground": "#777777"
+			}
+		},
+		{
+			"scope": [
+				"meta.function-call.arguments.python",
+				"meta.function-call.python",
+				"meta.member.access.python",
+			],
+			"settings": {
+				"foreground": "#E9CF9C"
+			}
+		},
+		{
+			"scope": [
+				"meta.function-call.generic.python",
+			],
+			"settings": {
+				"foreground": "#DA4E3F"
+			}
+		},
+		{
+			"scope": [
 				"entity.name.module.js",
 				"variable.import.parameter.js",
-				"variable.other.class.js"
+				"variable.other.class.js",
+				"constant.numeric.dec.python"
 			],
 			"settings": {
 				"foreground": "#FFFFFF"
