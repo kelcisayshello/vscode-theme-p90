@@ -294,7 +294,8 @@
 			"scope": [
 				"punctuation.definition.tag.begin.html",
 				"punctuation.definition.tag.end.html",
-				"entity.name.type.module.js"
+				"entity.name.type.module.js",
+				"entity.name.tag.tsx",
 			],
 			"settings": {
 				"foreground": "#565656"
@@ -369,8 +370,15 @@
 				"entity.name.tag.html"
 			],
 			"settings": {
-				// "fontStyle": "bold"
 				"foreground": "#5375A5"
+			}
+		},
+		{
+			"scope": [
+				"variable.parameter.tsx"
+			],
+			"settings": {
+				"foreground": "#00B0E7"
 			}
 		},
 		{
@@ -386,6 +394,10 @@
 			"scope": [
 				"variable.other.object.js",
 				"storage.type.js",
+				"variable.other.constant.tsx",
+				"meta.definition.variable.tsx",
+				"meta.array-binding-pattern-variable.tsx",
+				"meta.var.expr.tsx"
 			],
 			"settings": {
 				"foreground": "#5375A5",
@@ -430,6 +442,9 @@
 				"punctuation.definition.string.end.json",
 				"punctuation.definition.string.begin.py",
 				"punctuation.definition.string.end.py",
+				"punctuation.definition.string.begin.tsx",
+				"punctuation.definition.string.end.tsx",
+				"string.quoted.double.tsx"
 			],
 			"settings": {
 				"foreground": "#3A7359"
@@ -438,6 +453,8 @@
 		{
 			"scope": [
 				"entity.other.attribute-name.html",
+				"variable.other.readwrite.tsx",
+				"meta.embedded.expression.tsx"
 			],
 			"settings": {
 				"foreground": "#FEC32B"
