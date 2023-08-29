@@ -1,9 +1,9 @@
 # P90 – Dark Theme for Visual Studio Code
-This Visual Studio Code color theme was inspired by the popular 1990s primary (and green!) color scheme. That is also the origin of it's name – P90 (*Palette* 90).
+This color theme was inspired by the popularized 1990's primary (and green!) color scheme. That is also the origin of it's name – P90 (*Palette* 90).
 
 ![Official color palette for the P90 VS Code color theme](./color-palette.png)
 
-In formatting color placements, I attempted to follow semantic highlighting practices for common programming languages/file types.
+In deciding color placements, I attempted to follow semantic highlighting practices for common programming languages/file types.
 
 ### Installation
 1. Within Visual Studio Code, navigate to the **Extensions** tab and type "P90".
