@@ -367,7 +367,9 @@
 		},
 		{
 			"scope": [
-				"entity.name.tag.html"
+				"entity.name.tag.html",
+				"meta.import.tsx",
+				"variable.other.readwrite.alias.tsx",
 			],
 			"settings": {
 				"foreground": "#5375A5"
@@ -375,7 +377,8 @@
 		},
 		{
 			"scope": [
-				"variable.parameter.tsx"
+				"variable.parameter.tsx",
+				"variable.other.object.tsx"
 			],
 			"settings": {
 				"foreground": "#00B0E7"
@@ -441,10 +444,7 @@
 				"punctuation.definition.string.begin.json",
 				"punctuation.definition.string.end.json",
 				"punctuation.definition.string.begin.py",
-				"punctuation.definition.string.end.py",
-				"punctuation.definition.string.begin.tsx",
-				"punctuation.definition.string.end.tsx",
-				"string.quoted.double.tsx"
+				"punctuation.definition.string.end.py"
 			],
 			"settings": {
 				"foreground": "#3A7359"
@@ -575,7 +575,11 @@
 				"punctuation.definition.string.begin.python",
 				"punctuation.definition.string.end.python",
 				"string.quoted.single.python",
-				"string.quoted.docstring.single.python"
+				"string.quoted.docstring.single.python",
+				"punctuation.definition.string.begin.tsx",
+				"punctuation.definition.string.end.tsx",
+				"string.quoted.double.tsx",
+				"string.quoted.single.tsx"
 			],
 			"settings": {
 				"foreground": "#6C9C87"
