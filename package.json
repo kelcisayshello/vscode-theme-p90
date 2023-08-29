@@ -4,6 +4,7 @@
   "description": "a minimalistic dark retro color theme for visual studio code",
   "version": "1.0.1",
   "publisher": "kelcisayshello",
+  "icon": "./icon.png",
   "repository": {
     "type": "git",
     "url": "https://github.com/kelcisayshello/vscode-theme-p90"
