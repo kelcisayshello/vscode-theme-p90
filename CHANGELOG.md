@@ -1,5 +1,9 @@
 # Change Log
 
+### v`1.3.1`
+> Published to VS Code Marketplace on 2023 Sep 7
+* fixing highlighting for markdown special formatting
+
 ### v`1.3.0`
 > Published to VS Code Marketplace on 2023 Sep 6
 * overhauled theme default JSON file structure and cleaned up highlighting for CSS and TypeScript

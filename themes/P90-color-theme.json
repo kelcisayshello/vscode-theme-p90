@@ -266,6 +266,10 @@
 				"string.other.link.description.title.markdown",
 				"constant.other.reference.link.markdown",
 				"markup.raw.block",
+				"punctuation.definition.italic.markdown",
+				"markup.italic.markdown",
+				"punctuation.definition.bold.markdown",
+				"markup.bold.markdown",
 
 				// TYPESCRIPT
 				"punctuation.definition.entity.tsx"
@@ -307,7 +311,8 @@
 				"Keyword",
 				"Storage",
 				"source.js constant.other.object.key.js string.unquoted.label.js",
-				"markup.quote"
+				"markup.quote",
+				"markup.italic.markdown"
 			],
 			"settings": {
 				"fontStyle": "italic"
@@ -620,8 +625,6 @@
 				"markup.inline.raw.string.markdown",
 				"keyword.other.special-method",
 				"markup.bold",
-				"markup.bold.markdown",
-				"markup.italic.markdown",
 				"variable.function.constructor",
 				
 				// SASS
@@ -697,7 +700,6 @@
 			"scope": [
 				// MARKDOWN
 				"text.html.markdown markup.inline.raw.markdown",
-				"punctuation.definition.raw.markdown",
 				"markup.quote punctuation.definition.blockquote.markdown"
 			],
 			"settings": {
