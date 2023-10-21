@@ -31,7 +31,7 @@
 		"editor.lineHighlightBackground": "#22222250",
 		"editor.selectionBackground": "#6C9C8730",
 		"editor.selectionHighlightBackground": "#30604A6b",
-		"editor.selectionHighlightBorder": "#6C9C87f0",
+		"editor.selectionHighlightBorder": "#5375A5f0",
 		"editorBracketMatch.background": "#222222",
 		"editorBracketMatch.border": "#30604a00",
 		"editorCursor.foreground": "#DABB7E",
@@ -83,7 +83,7 @@
 		"inputValidation.errorBorder": "#FFFFFF50",
 		"inputValidation.infoBorder": "#6C9C8750",
 		"inputValidation.warningBorder": "#D02D1C50",
-		"list.activeSelectionBackground": "#222222",
+		"list.activeSelectionBackground": "#E2E2E208",
 		"list.activeSelectionForeground": "#5375A5",
 		"list.focusBackground": "#2F2F2F",
 		"list.focusForeground": "#3A7359",
@@ -149,11 +149,11 @@
 		"settings.textInputForeground": "#E2E2E2",
 		"sideBar.background": "#222222",
 		"sideBar.border": "#30604A50",
-		"sideBar.foreground": "#6C9C87",
+		"sideBar.foreground": "#E2E2E2",
 		"sideBarSectionHeader.background": "#222222",
 		"sideBarSectionHeader.border": "#22222260",
 		"sideBarSectionHeader.foreground": "#6C9C87",
-		"sideBarTitle.foreground": "#E2E2E2",
+		"sideBarTitle.foreground": "#6C9C87",
 		"statusBar.background": "#30604A",
 		"statusBar.border": "#1F1F1F",
 		"statusBar.debuggingBackground": "#DA4E3F",
@@ -412,6 +412,7 @@
 				"punctuation.separator.comma.js",
 				"punctuation.definition.binding-pattern.object.js",
 				"meta.class-method.js entity.name.function.js",
+				"variable.other.object.js",
 
 				// HTML
 				"entity.other.attribute-name.html",
@@ -512,7 +513,6 @@
 				"meta.var.expr.tsx",
 
 				// JS
-				"variable.other.object.js",
 				"storage.type.js",
 
 				// PYTHON
@@ -570,10 +570,10 @@
 
 				// JS
 				"variable.other.readwrite.js",
-				"variable.other.property.js",
 				"entity.name.method.js",
 				"tag.decorator.js entity.name.tag.js",
 				"tag.decorator.js punctuation.definition.tag.js",
+				"meta.object-literal.key.js",
 
 				// HTML
 				"string.quoted.double.html",
@@ -669,7 +669,9 @@
 			"scope": [
 				// PYTHON
 				"comment.line.number-sign.python",
-				"punctuation.definition.comment.python"
+				"punctuation.definition.comment.python",
+
+				"string.template.js",
 			],
 			"settings": {
 				"foreground": "#777777"
