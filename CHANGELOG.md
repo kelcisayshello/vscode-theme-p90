@@ -1,6 +1,6 @@
 # Change Log
 
-### v`1.3.2`
+### v`1.3.4`
 > Published to VS Code Marketplace on 2023 Oct 21
 * implemented subtle selection highlighting colors in menu for functionality and visibility
 
