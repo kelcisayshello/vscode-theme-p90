@@ -17,7 +17,7 @@ You can also navigate to the [Visual Studio Code Marketplace](https://marketplac
 
 ### 2. Applying the Theme
 
-1. click the green `Install` button. If you're coming from the website, it should prompt you to open Visual Studio Code.
+1. Click the green `Install` button. If you're coming from the website, it should prompt you to open Visual Studio Code.
 2. After the theme installs, VS Code should prompt you to reload but if not, you can do it manually to activate the theme.
 3. Open the Command Palette (`Ctrl` + `Shift` + `P` or `Cmd` + `Shift` + `P`).
 4. Type "Color Theme" and select "Preferences: Color Theme".
