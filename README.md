@@ -1,14 +1,27 @@
 # P90 – Dark Theme for Visual Studio Code
-This color theme was inspired by the popularized 1990's primary (and green!) color scheme. That is also the origin of it's name – P90 (*Palette* 90).
+This Visual Studio Code dark theme was inspired by the popularized 90's retro color palette 🕺🏾. P90 (*Palette* 90) embraces sharp contrasts of yellow, red, blue, and green paired with softened tones of black designed to promote semantic highlighting best practices and ease eye strain.
 
-![Official color palette for the P90 VS Code color theme](./color-palette.png)
+![Visual color palette for the Visual Studio Code theme P90](./color-palette.png)
 
-In deciding color placements, I attempted to follow semantic highlighting practices for common programming languages/file types.
+<br>
 
-### Installation
-1. Within Visual Studio Code, navigate to the **Extensions** tab and type "P90".
-> Alternatively, you can visit the theme directly in the [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items?itemName=kelcisayshello.p90).
+## Installation
+### 1. Finding the Theme
+The easiest way to find the theme is directly within VS Code:
 
-2. Click **Install**. If necessary, also click **Set Color Theme**.
+1. Open Visual Studio Code.
+2. Click the **Extensions** icon on the left sidebar (the icon should look like 4 squares).
+3. In the search bar, type `P90`
 
-3. Whenever you want to change back to the P90 color theme at a later time, you can always navigate to <kbd>Code</kbd> > <kbd>Settings</kbd> > <kbd>Theme</kbd> > <kbd>Color Theme</kbd> and select **P90** from the list of *installed* color themes.
+You can also navigate to the [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items?itemName=kelcisayshello.p90) directly.
+
+### 2. Applying the Theme
+
+1. click the green `Install` button. If you're coming from the website, it should prompt you to open Visual Studio Code.
+2. After the theme installs, VS Code should prompt you to reload but if not, you can do it manually to activate the theme.
+3. Open the Command Palette (`Ctrl` + `Shift` + `P` or `Cmd` + `Shift` + `P`).
+4. Type "Color Theme" and select "Preferences: Color Theme".
+Choose your newly installed theme from the dropdown menu.
+
+
+
