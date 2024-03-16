@@ -361,6 +361,8 @@
 		},
 		{
 			"scope": [
+				"comment.line.number-sign.ignore",
+
 				// CSS
 				"comment.block.css",
 				"punctuation.definition.comment.begin.css",
